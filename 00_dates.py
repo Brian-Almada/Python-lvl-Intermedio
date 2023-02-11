@@ -20,3 +20,5 @@ print(timestamp)
 
 year_2023 = datetime(2023, 1, 22)
 
+print_date(year_2023)
+
