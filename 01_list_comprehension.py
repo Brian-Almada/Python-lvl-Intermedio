@@ -24,3 +24,19 @@ def sum_five(number):
 
 my_list = [sum_five(i) for i in range(8)]
 print(my_list)
+
+# Ejemplos más complejos
+
+# Podríamos crear una lista de esta manera sin usar listas de comprensión:
+
+multiplos = []
+for x in range(10):
+    if x % 2 == 0:
+        multiplos.append(x)
+
+print(multiplos)
+
+# O podemos crear esto mismo de una manera más optima usando listas por compresión:
+
+multiplos = [x for x in range(10) if x % 2 == 0]
+print(multiplos)
