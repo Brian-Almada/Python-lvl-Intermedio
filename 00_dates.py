@@ -22,3 +22,12 @@ year_2023 = datetime(2023, 1, 22)
 
 print_date(year_2023)
 
+from datetime import time
+
+print(time)
+
+current_time = time(11, 20, 30) # Time es un objeto que tiene las propiedades de tiempo (horas, minutos y segundos). Pero estos están vacíos y nos toca rellenarlos con valores que necesitemos. Si no pasamos parámetros, los print siguientes tendran un valor de 0
+
+print(current_time.hour)
+print(current_time.minute)
+print(current_time.second)
