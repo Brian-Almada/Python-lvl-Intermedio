@@ -31,3 +31,14 @@ current_time = time(11, 20, 30) # Time es un objeto que tiene las propiedades de
 print(current_time.hour)
 print(current_time.minute)
 print(current_time.second)
+
+from datetime import date
+
+print(date)
+
+current_date = date(2023, 2, 13) # Date es similar a Time, la diferencia es que date tiene las propiedades de las fechas. También debemos rellenar con valores, pero no se puede instanciar sin valor ya que no nos devuelve 0 como time, sino que nos devuelve la excepción TypeError
+
+print(current_date.year)
+print(current_date.month)
+print(current_date.day)
+
