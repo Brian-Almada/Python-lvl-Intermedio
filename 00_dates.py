@@ -42,3 +42,10 @@ print(current_date.year)
 print(current_date.month)
 print(current_date.day)
 
+from datetime import timedelta # El objeto timedelta representa una duración, la diferencia entre dos fechas u horas. Es decir que me sirve para obtener valores absolutos, un bloque de tiempo y no una fecha en sí. Pj--> Sí queremos saber cuánto tiempo estuvo subscrito una persona en una cuenta de x cosa, podemos hacer la operación con timedelta usando la fecha inicial y la final y eso nos arroja la duración del usuario en x plataforma.
+
+start_timedelta = timedelta(200, 100, 100, weeks = 10)
+end_timedelta = timedelta(300, 100, 100, weeks = 13)
+
+print(end_timedelta - start_timedelta)
+print(end_timedelta + start_timedelta)
