@@ -21,3 +21,14 @@ def sum_two_values_and_add_value(first_value, second_value, f_sum):
 
 print(sum_two_values_and_add_value(5, 2, sum_one))
 print(sum_two_values_and_add_value(5, 2, sum_five))
+
+# Closures
+# Las clausuras son funciones que dentro de ellas encierran a otra función y a su ámbito de aplicación, lo que permite el acceso a variables definidas dentro de la función interna, incluso fuera de su ámbito. Una clausura siempre retorna la función que define dentro.
+
+def sum_ten():
+    def add(value):
+        return value + 10
+    return add
+
+add_closure = sum_ten()
+print(add_closure(5))
