@@ -32,3 +32,15 @@ def sum_ten():
 
 add_closure = sum_ten()
 print(add_closure(5))
+
+# Built-in Higher ORder Functions
+
+numbers = [2, 5, 10, 21]
+
+#Map
+
+def multiply_two(number):
+    return number * 2
+
+print(list(map(multiply_two, numbers)))
+print(list(map(lambda number: number * 2, numbers)))
