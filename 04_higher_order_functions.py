@@ -44,3 +44,12 @@ def multiply_two(number):
 
 print(list(map(multiply_two, numbers)))
 print(list(map(lambda number: number * 2, numbers)))
+
+# Filter
+
+def filter_greater_than_ten(number):
+    if number > 10:
+        return True
+    return False
+
+print(list(filter(filter_greater_than_ten, numbers)))
