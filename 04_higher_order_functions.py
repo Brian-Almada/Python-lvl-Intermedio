@@ -1,6 +1,8 @@
 # Higher Order Functions
 # Una función se denomina Función de orden superior si esta contiene otras funciones como parámetros de entrada o si devuelve una función como salida
 
+from functools import reduce
+
 def sum_one(value):
     return value + 1
 
@@ -56,3 +58,13 @@ def filter_greater_than_ten(number):
 
 print(list(filter(filter_greater_than_ten, numbers)))
 print(list(filter(lambda number: number > 10, numbers)))
+
+# Reduce
+# Reduce nos retorna el acumulado de la lista. En este caso suma el primer valor con el segundo (2 + 5 = 7) El 7 termina siendo el primer valor y lo suma con el segundo que sigue que es 10 (7 + 10 = 17) 17 se convierte en el first_value y se suma con el second_value que sigue que es 21 (17 + 21 = 38) Es por eso que el resultado de reduce es 38
+
+def sum_two_values(first_value, second_value):
+    print(first_value)
+    print(second_value)
+    return first_value + second_value
+
+print(reduce(sum_two_values, numbers))
