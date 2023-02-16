@@ -38,7 +38,7 @@ print(add_closure(5))
 numbers = [2, 5, 10, 21]
 
 #Map
-
+# El map recorre todos los valores y ejecuta una función sobre ellos para modificar su valor
 def multiply_two(number):
     return number * 2
 
