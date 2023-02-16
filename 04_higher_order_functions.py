@@ -39,6 +39,7 @@ numbers = [2, 5, 10, 21]
 
 #Map
 # El map recorre todos los valores y ejecuta una función sobre ellos para modificar su valor
+
 def multiply_two(number):
     return number * 2
 
@@ -46,6 +47,7 @@ print(list(map(multiply_two, numbers)))
 print(list(map(lambda number: number * 2, numbers)))
 
 # Filter
+#el filter recorre todos los valores y ejecuta una función que retorna True o False para saver como filtrar los valores
 
 def filter_greater_than_ten(number):
     if number > 10:
