@@ -55,3 +55,4 @@ def filter_greater_than_ten(number):
     return False
 
 print(list(filter(filter_greater_than_ten, numbers)))
+print(list(filter(lambda number: number > 10, numbers)))
