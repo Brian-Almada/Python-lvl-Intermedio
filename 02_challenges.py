@@ -32,3 +32,17 @@ def fizzbuzz():
         print(i)
 
 fizzbuzz()
+
+"""
+Escribe una función que reciba dos palabras (String) y retorne True o False según sean o no anagramas.
+- Un anagrama consiste en formar una palabra reordenando TODAS las letras de otra palabra inicial.
+- NO hace falta comprobar que ambas palabras existan.
+- Dos palabras exactamente iguales no son anagrama.
+"""
+
+def is_an_anagram(word_one, word_two):
+    if word_one.lower() == word_two.lower():
+        return False
+    return sorted(word_one.lower()) == sorted(word_two.lower())
+
+print(is_an_anagram("amor", "goma"))
