@@ -20,3 +20,10 @@ try:
     print(my_list[5])
 except:
     print("Este es un IndexError que aparece cuando le ponemos un indice de más o inexistente")
+
+# ModuleNotFoundError
+
+try:
+    import maths
+except:
+    print("Este es un ModuleNotFoundError y aparece cuando no existe el archivo que importamos")
