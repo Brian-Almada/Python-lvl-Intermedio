@@ -35,3 +35,11 @@ try:
     print(math.PI)
 except:
     print("Este es un AttributeError y aparece cuando colocamos un atributo que no existe")
+
+# KeyError
+
+try:
+    my_dick = {"name":"Brian", "surname":"Almada", "age":32, 1: "Python"}
+    print(my_dick["aje"])
+except:
+    print("Este es un KeyError y aparece cuando colocamos una clave inexistente")
