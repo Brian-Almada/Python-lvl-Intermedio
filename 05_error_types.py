@@ -43,3 +43,10 @@ try:
     print(my_dick["aje"])
 except:
     print("Este es un KeyError y aparece cuando colocamos una clave inexistente")
+
+#TypeError
+
+try:
+    print(my_list["nombre"])
+except:
+    print("Este es un TypeError y aparece cuando usamos un tipo de valor no correspondiente")
