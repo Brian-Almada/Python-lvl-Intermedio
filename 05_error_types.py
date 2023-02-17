@@ -44,9 +44,16 @@ try:
 except:
     print("Este es un KeyError y aparece cuando colocamos una clave inexistente")
 
-#TypeError
+# TypeError
 
 try:
     print(my_list["nombre"])
 except:
     print("Este es un TypeError y aparece cuando usamos un tipo de valor no correspondiente")
+
+# ImportError
+
+try:
+    from math import PI
+except:
+    print("Este es un ImportError y aparece cuando el nombre de lo que importamos es incorrecto")
