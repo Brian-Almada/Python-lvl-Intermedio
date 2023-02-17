@@ -65,3 +65,10 @@ try:
     print(type(my_int))
 except:
     print("Este es un ValueError y aparece cuando pasamos un valor no correspondiente")
+
+# ZeroDivisionError
+
+try:
+    print(4/0)
+except:
+    print("Este es un ZeroDivisionError y aparece cuando intentamos dividir un número por 0")
