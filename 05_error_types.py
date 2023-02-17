@@ -57,3 +57,11 @@ try:
     from math import PI
 except:
     print("Este es un ImportError y aparece cuando el nombre de lo que importamos es incorrecto")
+
+# ValueError
+
+try:
+    my_int = int("10 años")
+    print(type(my_int))
+except:
+    print("Este es un ValueError y aparece cuando pasamos un valor no correspondiente")
