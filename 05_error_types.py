@@ -27,3 +27,11 @@ try:
     import maths
 except:
     print("Este es un ModuleNotFoundError y aparece cuando no existe el archivo que importamos")
+
+# AttributeError
+
+import math
+try:
+    print(math.PI)
+except:
+    print("Este es un AttributeError y aparece cuando colocamos un atributo que no existe")
