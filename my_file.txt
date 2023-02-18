@@ -1,4 +1,5 @@
 Mi nombre es Brian
-Mi apellido es Almada
-32 aÃ±os
-Y mi lenguaje preferido es Python
+Mi apellido Almada
+ 32 años
+Y mi lenguaje favorito es Python
+Aunque también me gusta JavaScript
