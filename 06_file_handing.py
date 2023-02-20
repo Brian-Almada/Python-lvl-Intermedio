@@ -35,3 +35,13 @@ json_test = {
 }
 
 json.dump(json_test, json_file, indent= 4)
+
+json_file.close()
+
+with open("./my_file.json") as my_other_file:
+    for line in my_other_file.readline():
+        print(line)
+
+json_dict = json.load(open("./my_file.json"))
+print(json_dict)
+print(type(json_dict))
