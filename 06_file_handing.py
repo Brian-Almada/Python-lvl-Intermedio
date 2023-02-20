@@ -27,11 +27,11 @@ import json
 
 json_file = open("./my_file.json", "w+")
 
-json_text = {
+json_test = {
     "name":"Brian",
     "surname":"Almada",
     "age": 32,
     "lenguge":"Python"
 }
 
-json.dump(json_text, json_file, indent= 4)
+json.dump(json_test, json_file, indent= 4) 
