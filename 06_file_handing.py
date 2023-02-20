@@ -33,3 +33,5 @@ json_text = {
     "age": 32,
     "lenguge":"Python"
 }
+
+json.dump(json_text, json_file, indent= 4)
