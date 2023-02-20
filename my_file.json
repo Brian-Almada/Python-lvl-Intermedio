@@ -2,5 +2,9 @@
     "name": "Brian",
     "surname": "Almada",
     "age": 32,
-    "lenguge": "Python"
+    "lenguge": [
+        "Python",
+        "JavaScript",
+        "PHP"
+    ]
 }

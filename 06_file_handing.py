@@ -31,7 +31,7 @@ json_test = {
     "name":"Brian",
     "surname":"Almada",
     "age": 32,
-    "lenguge":"Python"
+    "lenguge":["Python", "JavaScript", "PHP"]
 }
 
-json.dump(json_test, json_file, indent= 4) 
+json.dump(json_test, json_file, indent= 4)
