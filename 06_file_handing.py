@@ -57,7 +57,6 @@ csv_writer.writerow(["Brian", "Almada", 32, "Python", "brianalexisalmada84@gmail
 
 csv_file.close()
 
-whit open("./my_file.csv") as my_other_file:
+with open("./my_file.csv") as my_other_file:
     for line in my_other_file.readlines():
-    print(line)
-
+        print(line)
