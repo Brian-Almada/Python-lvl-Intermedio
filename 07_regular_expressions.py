@@ -2,7 +2,7 @@
 
 import re
 
-my_string = "Esta es la lección número 7: Expresiones Regulares"
+my_string = "Esta es la lección número 7. Lección llamada: Expresiones Regulares"
 
 my_other_string = "Esta no es la lección número 6: Manejo de ficheros"
 
@@ -29,3 +29,8 @@ search = re.search("lección", my_string, re.I)
 print(search)
 start, end = search.span()
 print(my_string[start:end])
+
+# findall
+
+findall = re.findall("lección", my_string, re.I)
+print(findall)
