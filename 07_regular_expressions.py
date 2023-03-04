@@ -39,3 +39,7 @@ print(findall) # Este objeto permite encontrar todas las instancias de la palabr
 
 print(re.split("a", my_string))
 print(re.split(":", my_string)) # El objeto split lo que hace es colocar el texto en una lista y separarlo en las porciones desde el patrón que le coloquemos sin tener en cuenta dicho patrón cuando lo coloca en la lista.
+
+# sub
+
+print(re.sub("Expresiones Regulares", "RegEx", my_string))
