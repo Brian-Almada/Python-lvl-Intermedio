@@ -34,3 +34,8 @@ print(my_string[start:end])
 
 findall = re.findall("lección", my_string, re.I)
 print(findall) # Este objeto permite encontrar todas las instancias de la palabra o palabras que queremos encontrar
+
+# split
+
+print(re.split("a", my_string))
+print(re.split(":", my_string)) 
