@@ -42,4 +42,4 @@ print(re.split(":", my_string)) # El objeto split lo que hace es colocar el text
 
 # sub
 
-print(re.sub("Expresiones Regulares", "RegEx", my_string))
+print(re.sub("Expresiones Regulares", "RegEx", my_string)) # Sub lo que hace es substituir la cadena o palabra que le pasamos en el primer parámetro por la cadena o palabra que le pasamos en el segundo parámetro
