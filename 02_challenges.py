@@ -67,3 +67,47 @@ def suc_fibonacci():
         next = fib
 
 suc_fibonacci()
+
+
+"""
+¿ES UN NÚMERO PRIMO?
+Escribe un programa que se encargue de comprobar si un número es primo o no.
+Hecho esto imprime los números primos del 1 al 100
+"""
+
+
+
+def is_prime(num):
+    if num < 2:
+        return False
+    for i in range(2, num):
+        if num % i == 0:
+            return False
+    return True
+
+primes = []
+for num in range(1, 101):
+    if is_prime(num):
+        primes.append(num)
+
+print("Los números primos del 1 al 100 son:", primes)
+
+
+def is_prime(num):
+    if num == 1:
+        return False
+    for i in range(2, num):
+        if num % i == 0:
+            return False
+    return True
+
+numbers = list(range(1, 101))
+for num in numbers:
+    if is_prime(num):
+        print(f"El número {num} es primo.")
+    else:
+        print(f"El número {num} no es primo.")
+
+
+
+
